@@ -19,12 +19,12 @@ public class RvRM
     }
 
     @Mod.EventHandler
-    public void init(FMLInitializationEvent)
+    public void init(FMLInitializationEvent event)
     {
-        //register GUI, recipies, tile entites, genral handlers
+        //register GUI, recipes, tile entities, general handlers
     }
     @Mod.EventHandler
-    public void postInit(FMLPostInitializationEvent)
+    public void postInit(FMLPostInitializationEvent event)
     {
         //other, stuff after other mods
     }

@@ -1,0 +1,21 @@
+[
+{
+  "modid": "RvRM",
+  "name": "Risk vs Reward Mod",
+  "description": "How risky do you want to be?",
+  "version": "0.1",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "fenced1n"
+  ],
+  "credits": "pahimar for inspiring me to make a mod with his tutorial",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
