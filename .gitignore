@@ -8,8 +8,8 @@
 ## ForgeGradle
 /run
 
-## eclipse
-/eclipse
+## minecraft
+/minecraft
 /.settings
 /.metadata
 /.classpath
