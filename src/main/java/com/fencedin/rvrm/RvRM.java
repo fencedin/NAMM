@@ -3,6 +3,7 @@ package com.fencedin.rvrm;
 import com.fencedin.rvrm.handler.ConfigHandler;
 import com.fencedin.rvrm.init.ModBlocks;
 import com.fencedin.rvrm.init.ModItems;
+import com.fencedin.rvrm.init.Recipes;
 import com.fencedin.rvrm.proxy.IProxy;
 import com.fencedin.rvrm.reference.Reference;
 import com.fencedin.rvrm.utility.LogHelper;
@@ -44,6 +45,7 @@ public class RvRM
     public void init(FMLInitializationEvent event)
     {
         //register GUI, recipes, tile entities, general handlers
+        Recipes.init();
 
         LogHelper.info("******Init Complete");
     }
