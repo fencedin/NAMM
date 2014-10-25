@@ -1,14 +1,21 @@
 package com.fencedin.rvrm;
 
+import com.fencedin.rvrm.handler.ConfigHandler;
 import com.fencedin.rvrm.proxy.IProxy;
 import com.fencedin.rvrm.reference.Reference;
+import com.fencedin.rvrm.utility.LogHelper;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
+@Mod(modid = Reference.MOD_ID,
+     name = Reference.MOD_NAME,
+     version = Reference.VERSION,
+     guiFactory = Reference.GUI_FACTORY_CLASS
+)
 
 public class RvRM
 {
@@ -22,16 +29,24 @@ public class RvRM
     public void preInit(FMLPreInitializationEvent event)
     {
         //load network handling, mod config, items, blocks
+        ConfigHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigHandler());
+
+        LogHelper.info("******PreInit Complete");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
         //register GUI, recipes, tile entities, general handlers
+
+        LogHelper.info("******Init Complete");
     }
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
         //other, stuff after other mods
+
+        LogHelper.info("******PostInit Complete");
     }
 }
