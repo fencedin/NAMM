@@ -1,19 +1,18 @@
 package com.fencedin.rvrm.init;
 
-
-import com.fencedin.rvrm.item.ItemCore;
-import com.fencedin.rvrm.item.ItemRvRM;
+import com.fencedin.rvrm.block.BlockCinerator;
+import com.fencedin.rvrm.block.BlockRvRM;
 import com.fencedin.rvrm.reference.Names;
 import com.fencedin.rvrm.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
-public class ModItems
+public class ModBlocks
 {
-    public static final ItemRvRM core = new ItemCore();
+    public static final BlockRvRM cinerator = new BlockCinerator();
 
     public static void init()
     {
-        GameRegistry.registerItem(core, Names.Items.CORE);
+        GameRegistry.registerBlock(cinerator, Names.Blocks.CINERATOR);
     }
 }

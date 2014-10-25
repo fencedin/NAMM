@@ -1,6 +1,7 @@
 package com.fencedin.rvrm;
 
 import com.fencedin.rvrm.handler.ConfigHandler;
+import com.fencedin.rvrm.init.ModBlocks;
 import com.fencedin.rvrm.init.ModItems;
 import com.fencedin.rvrm.proxy.IProxy;
 import com.fencedin.rvrm.reference.Reference;
@@ -34,6 +35,7 @@ public class RvRM
         FMLCommonHandler.instance().bus().register(new ConfigHandler());
 
         ModItems.init();
+        ModBlocks.init();
 
         LogHelper.info("******PreInit Complete");
     }

@@ -6,12 +6,12 @@ public class Names
     {
         public static final String CORE = "core";
     }
-/*
+
     public static final class Blocks
     {
-        public static final String FLAG = "flag";
+        public static final String CINERATOR = "cinerator";
     }
-
+/*
     public static final class Keys
     {
         public static final String CATEGORY = "keys.letsmodreboot.category";
