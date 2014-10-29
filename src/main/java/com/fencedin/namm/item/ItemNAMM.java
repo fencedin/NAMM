@@ -1,5 +1,6 @@
 package com.fencedin.namm.item;
 
+import com.fencedin.namm.creativetab.CreativeTabNAMM;
 import com.fencedin.namm.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,7 +14,7 @@ public class ItemNAMM extends Item
     {
         super();
         this.maxStackSize = 1;
-        //this.setCreativeTab(CreativeTabs.NAMM_TAB);
+        this.setCreativeTab(CreativeTabNAMM.NAMM_TAB);
         this.setNoRepair();
     }
 

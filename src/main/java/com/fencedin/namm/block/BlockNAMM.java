@@ -1,5 +1,6 @@
 package com.fencedin.namm.block;
 
+import com.fencedin.namm.creativetab.CreativeTabNAMM;
 import com.fencedin.namm.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class BlockNAMM extends Block
     public BlockNAMM(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabNAMM.NAMM_TAB);
     }
 
     public BlockNAMM()
