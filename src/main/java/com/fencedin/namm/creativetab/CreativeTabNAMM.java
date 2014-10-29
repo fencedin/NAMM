@@ -7,19 +7,12 @@ import net.minecraft.item.Item;
 
 public class CreativeTabNAMM
 {
-    public static final CreativeTabs NAMM_TAB = new CreativeTabs(Reference.MOD_ID)
+    public static final CreativeTabs NAMM_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase())
     {
         @Override
         public Item getTabIconItem()
         {
             return ModItems.core;
         }
-
-        @Override
-        public String getTranslatedTabLabel()
-        {
-            return Reference.MOD_NAME;
-        }
-
     };
 }
