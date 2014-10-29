@@ -1,6 +1,6 @@
-package com.fencedin.rvrm.utility;
+package com.fencedin.namm.utility;
 
-import com.fencedin.rvrm.reference.Reference;
+import com.fencedin.namm.reference.Reference;
 import cpw.mods.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 

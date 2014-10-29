@@ -1,4 +1,4 @@
-package com.fencedin.rvrm.proxy;
+package com.fencedin.namm.proxy;
 
 public class ServerProxy extends CommonProxy
 {

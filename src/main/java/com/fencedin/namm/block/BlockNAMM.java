@@ -1,20 +1,20 @@
-package com.fencedin.rvrm.block;
+package com.fencedin.namm.block;
 
-import com.fencedin.rvrm.reference.Reference;
+import com.fencedin.namm.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 
-public class BlockRvRM extends Block
+public class BlockNAMM extends Block
 {
-    public BlockRvRM(Material material)
+    public BlockNAMM(Material material)
     {
         super(material);
     }
 
-    public BlockRvRM()
+    public BlockNAMM()
     {
         this(Material.rock);
     }

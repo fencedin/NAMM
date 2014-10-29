@@ -1,12 +1,12 @@
-package com.fencedin.rvrm;
+package com.fencedin.namm;
 
-import com.fencedin.rvrm.handler.ConfigHandler;
-import com.fencedin.rvrm.init.ModBlocks;
-import com.fencedin.rvrm.init.ModItems;
-import com.fencedin.rvrm.init.Recipes;
-import com.fencedin.rvrm.proxy.IProxy;
-import com.fencedin.rvrm.reference.Reference;
-import com.fencedin.rvrm.utility.LogHelper;
+import com.fencedin.namm.handler.ConfigHandler;
+import com.fencedin.namm.init.ModBlocks;
+import com.fencedin.namm.init.ModItems;
+import com.fencedin.namm.init.Recipes;
+import com.fencedin.namm.proxy.IProxy;
+import com.fencedin.namm.reference.Reference;
+import com.fencedin.namm.utility.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -20,10 +20,10 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
      guiFactory = Reference.GUI_FACTORY_CLASS
 )
 
-public class RvRM
+public class NAMM
 {
     @Mod.Instance(Reference.MOD_ID)
-    public static RvRM instance;
+    public static NAMM instance;
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;

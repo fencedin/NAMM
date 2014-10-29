@@ -1,20 +1,19 @@
-package com.fencedin.rvrm.item;
+package com.fencedin.namm.item;
 
-import com.fencedin.rvrm.reference.Reference;
+import com.fencedin.namm.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-public class ItemRvRM extends Item
+public class ItemNAMM extends Item
 {
-    public ItemRvRM()
+    public ItemNAMM()
     {
         super();
         this.maxStackSize = 1;
-        //this.setCreativeTab(CreativeTabs.RVRM_TAB);
+        //this.setCreativeTab(CreativeTabs.NAMM_TAB);
         this.setNoRepair();
     }
 

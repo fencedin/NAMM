@@ -1,4 +1,4 @@
-package com.fencedin.rvrm.reference;
+package com.fencedin.namm.reference;
 
 public class Names
 {

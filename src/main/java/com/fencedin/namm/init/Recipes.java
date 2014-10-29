@@ -1,6 +1,6 @@
-package com.fencedin.rvrm.init;
+package com.fencedin.namm.init;
 
-import com.fencedin.rvrm.reference.Names;
+import com.fencedin.namm.reference.Names;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;

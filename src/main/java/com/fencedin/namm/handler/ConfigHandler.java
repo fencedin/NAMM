@@ -1,6 +1,6 @@
-package com.fencedin.rvrm.handler;
+package com.fencedin.namm.handler;
 
-import com.fencedin.rvrm.reference.Reference;
+import com.fencedin.namm.reference.Reference;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;

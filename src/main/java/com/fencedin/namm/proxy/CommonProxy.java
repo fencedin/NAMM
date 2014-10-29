@@ -1,4 +1,4 @@
-package com.fencedin.rvrm.proxy;
+package com.fencedin.namm.proxy;
 
 public abstract class CommonProxy implements IProxy
 {

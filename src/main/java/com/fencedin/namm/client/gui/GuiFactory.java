@@ -1,4 +1,4 @@
-package com.fencedin.rvrm.client.gui;
+package com.fencedin.namm.client.gui;
 
 import cpw.mods.fml.client.IModGuiFactory;
 import net.minecraft.client.Minecraft;

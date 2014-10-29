@@ -1,7 +1,7 @@
-package com.fencedin.rvrm.client.gui;
+package com.fencedin.namm.client.gui;
 
-import com.fencedin.rvrm.handler.ConfigHandler;
-import com.fencedin.rvrm.reference.Reference;
+import com.fencedin.namm.handler.ConfigHandler;
+import com.fencedin.namm.reference.Reference;
 import cpw.mods.fml.client.config.GuiConfig;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;
