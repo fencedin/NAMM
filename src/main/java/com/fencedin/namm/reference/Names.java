@@ -19,4 +19,12 @@ public class Names
         public static final String RELEASE = "keys.letsmodreboot.release";
     }
 */
+
+    public static final class NBT
+    {
+        public static final String STATE = "teState";
+        public static final String CUSTOM_NAME = "CustomName";
+        public static final String DIRECTION = "teDirection";
+        public static final String OWNER = "owner";
+    }
 }
